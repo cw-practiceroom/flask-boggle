@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: rgba(34, 193, 195, 40%);
+  /* background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 0.7087820674596208) 0%,
+    rgba(253, 103, 45, 0.6610292584708568) 100%
+  ); */
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+  font-size: 40px;
+}
+
+table,
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+table {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* float: left; */
+}
+
+td {
+  height: 100px;
+  width: 100px;
+}
+
+form {
+  float: right;
+  margin: 10px;
+}
+
+p {
+  font-size: 25px;
+}
